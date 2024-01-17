@@ -12,7 +12,7 @@
       <div class="container">
         <div class="header-nav">
           <a href="!#" class="logo">Bohdan</a>
-          <nav class="nav">
+          <nav class="nav" id="nav">
             <ul class="nav-list">
               <li class="nav-item">
                 <a href="#!" class="nav-link active">Home</a>
@@ -26,72 +26,140 @@
                 <a href="#!" class="nav-link">Contact</a>
               </li>
             </ul>
+            <button class="nav-button" id="nav-btn">
+              <img
+                src="./img/icons/nav-close.svg"
+                alt="Nav button"
+                id="nav-btn-img"
+              />
+            </button>
           </nav>
         </div>
         <!-- Header content -->
         <div class="header-row">
           <div class="header-content">
-            <h1 class="header-heading">Bohdan Horbyk</br> Designer & Developer</h1>
+            <h1 class="header-heading">
+              Bohdan Horbyk<br />
+              Designer & Developer
+            </h1>
             <p>
               I’m a portrait, fashion and lifestyle photographer living In New
               York City. During my thirteen year tenure here.
             </p>
           </div>
           <div class="header-img">
-            <img src="./imj/header/hero.png" alt="" />
+            <img src="./img/header/hero.png" alt="" />
           </div>
         </div>
       </div>
     </header>
     <section class="services">
-        <div class="container">
-            <div class="services-row">
-                <div class="services-card">
-                    <img class="services-card-img" src="./imj/services/01.svg" alt="UI/UX Design">
-                    <h3 class="services-card-title">UI/UX Design</h3>
-                    <p>Our design is translated into comprehensive digital environments built on latest development standards.</p>
-                </div>
-                <div class="services-card">
-                    <img class="services-card-img" src="./imj/services/02.svg" alt="Development">
-                    <h3 class="services-card-title">Development</h3>
-                    <p>Our design is translated into comprehensive digital environments built on latest development standards.</p>
-                </div>
-                <div class="services-card">
-                    <img class="services-card-img" src="./imj/services/03.svg" alt="software testing">
-                    <h3 class="services-card-title">software testing</h3>
-                    <p>Our design is translated into comprehensive digital environments built on latest development standards.</p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="services-row">
+          <div class="services-card">
+            <img
+              class="services-card-img"
+              src="./img/services/01.svg"
+              alt="UI/UX Design"
+            />
+            <h3 class="services-card-title">UI/UX Design</h3>
+            <p>
+              Our design is translated into comprehensive digital environments
+              built on latest development standards.
+            </p>
+          </div>
+          <div class="services-card">
+            <img
+              class="services-card-img"
+              src="./img/services/02.svg"
+              alt="Development"
+            />
+            <h3 class="services-card-title">Development</h3>
+            <p>
+              Our design is translated into comprehensive digital environments
+              built on latest development standards.
+            </p>
+          </div>
+          <div class="services-card">
+            <img
+              class="services-card-img"
+              src="./img/services/03.svg"
+              alt="software testing"
+            />
+            <h3 class="services-card-title">software testing</h3>
+            <p>
+              Our design is translated into comprehensive digital environments
+              built on latest development standards.
+            </p>
+          </div>
         </div>
-
+      </div>
     </section>
     <section class="portfolio">
-        <div class="container">
-            <div class="portfolio-title">
-                <h2 class="title1">
-                    Portfoli
-                </h2>
-            </div>
-            <div class="project">
-                <img src="./imj/portfolio/01.jpg" alt="Online fashion store" class="project-img">
-                <h3 class="project-title">
-                    <a href="#!">Online fashion store - Homepage</a>
-                </h3>
-            </div>
-            <div class="project">
-                <img src="./imj/portfolio/02.jpg" alt="Reebok Store - Concept" class="project-img">
-                <h3 class="project-title">
-                    <a href="#!">Reebok Store - Concept</a>
-                </h3>
-            </div>
-            <div class="project">
-                <img src="./imj/portfolio/03.jpg" alt="Braun Landing Page - Concept" class="project-img">
-                <h3 class="project-title">
-                    <a href="#!">Braun Landing Page - Concept</a>
-                </h3>
-            </div>
+      <div class="container">
+        <div class="portfolio-title">
+          <h2 class="title1">Portfoli</h2>
         </div>
+        <div class="project">
+          <img
+            src="./img/portfolio/01.jpg"
+            alt="Online fashion store"
+            class="project-img"
+          />
+          <h3 class="project-title">
+            <a href="#!">Online fashion store - Homepage</a>
+          </h3>
+        </div>
+        <div class="project">
+          <img
+            src="./img/portfolio/02.jpg"
+            alt="Reebok Store - Concept"
+            class="project-img"
+          />
+          <h3 class="project-title">
+            <a href="#!">Reebok Store - Concept</a>
+          </h3>
+        </div>
+        <div class="project">
+          <img
+            src="./img/portfolio/03.jpg"
+            alt="Braun Landing Page - Concept"
+            class="project-img"
+          />
+          <h3 class="project-title">
+            <a href="#!">Braun Landing Page - Concept</a>
+          </h3>
+        </div>
+      </div>
     </section>
+    <footer class="contacts">
+      <div class="container">
+        <div class="contacts-title">
+          <h2 class="title1">Contacts</h2>
+        </div>
+        <div class="cotacts-content">
+          <p>
+            Want to know more or just chat?<br />
+            You are welcome!
+          </p>
+        </div>
+        <div class="contacts-button">
+          <a href="#!" class="btn">Send massage</a>
+        </div>
+        <div class="contacts-social">
+          <a href="#!"><img src="./img/socials/LinkedIn.svg" alt="" /></a>
+          <a href="#!"><img src="./img/socials/Instargam.svg" alt="" /></a>
+          <a href="#!"><img src="./img/socials/Behance.svg" alt="" /></a>
+          <a href="#!"><img src="./img/socials/Dribble.svg" alt="" /></a>
+        </div>
+        <div class="contacts-footer">
+          <p>
+            Like me on<br />
+            LinkedIn, Instagram, Behance, Dribble
+          </p>
+        </div>
+      </div>
+    </footer>
     <script src="./js/main.js"></script>
   </body>
 </html>
